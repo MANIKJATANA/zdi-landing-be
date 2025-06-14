@@ -3,6 +3,6 @@ import { getLandingContent } from '../controllers/landingPageController';
 
 const router = express.Router();
 
-router.get('/', getLandingContent);
+router.get('/api/landing-page', getLandingContent);
 
 export default router;
